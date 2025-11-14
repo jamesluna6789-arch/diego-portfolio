@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid  position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">MyPortfolio</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title light-background">
+      <div class="container">
+        <h1>Portfolio</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="row align-items-center">
+            <div class="col-lg-7 portfolio-info">
+              <h3>Hey, I'm Diego Andres</h3>
+              <p>AI / ML Engineer | Full Stack Developer</p>
+            </div>
+            <div class="col-lg-5 text-center text-lg-end">
+              <ul class="portfolio-filters isotope-filters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-web">Web</li>
+                <li data-filter=".filter-app">Mobile</li>
+                <li data-filter=".filter-aiml">AI/ML</li>
+              </ul><!-- End Portfolio Filters -->
+            </div>
+          </div>
+
+          <div class="row gy-2 isotope-container" data-aos-delay="200" style="position: relative; height: 1344px;">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="position: absolute; left: 0px; top: 0px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Smart Environment & Lifestyle Dashboard App</h4>
+                  <p>The design is modern and intuitive, likely focused on personalized user experience and smart city integration, helping users make environmentally conscious and informed daily decisions.</p>
+                  <div>
+                    <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web" style="position: absolute; left: 440px; top: 0px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/web-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Molly Maid - Professional Home & Business Cleaning Services</h4>
+                  <p>This project represents the official website for Molly Maid, a well-known residential and commercial cleaning service company under the Neighborly brand. The website promotes customized, professional-grade cleaning solutions that customers can rely on.</p>
+                  <div>
+                    <a href="assets/img/portfolio/web-1.jpg" title="Molly Maid - Professional Home & Business Cleaning Services" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-aiml" style="position: absolute; left: 880px; top: 0px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/aiml-1.gif" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Player Data Analyst</h4>
+                  <p>This is a player analytics system that collects in-game and performance data from athletes or gamers to identify unique playing styles and strengths. Using machine learning and statistical modeling, it generates detailed player profiles highlighting skill level, consistency, tactical preferences, and potential growth areas.</p>
+                  <div>
+                    <a href="assets/img/portfolio/aiml-1.gif" title="Player Data Analyst" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="position: absolute; left: 440px; top: 336px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Digital Wallet App</h4>
+                  <p>This project showcases a mobile digital wallet application designed to simplify and enhance the payment experience.</p>
+                  <div>
+                    <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web" style="position: absolute; left: 880px; top: 336px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/web-2.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Durham Plumeria — Specialty Plumeria Nursery</h4>
+                  <p>This project is a website for Durham Plumeria, a specialty nursery founded by Chris Durham and located in South Florida. The site highlights the nursery's 30+ years of experience serving both plant enthusiasts and the horticultural trade.</p>
+                  <div>
+                    <a href="assets/img/portfolio/web-2.png" title="Durham Plumeria — Specialty Plumeria Nursery" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->            
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="position: absolute; left: 880px; top: 672px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Breathe - Guided Breathing & Relaxation App</h4>
+                  <p>This project appears to be a mindfulness and relaxation mobile application focused on guided breathing exercises.</p>
+                  <div>
+                    <a href="assets/img/portfolio/app-3.jpg" title="Breathe - Guided Breathing & Relaxation App" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web" style="position: absolute; left: 880px; top: 672px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/web-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>sDOGE</h4>
+                  <p>sDOGE is a decentralized finance (DeFi) protocol designed to generate yield on Dogecoin (DOGE) by leveraging Hyperliquid Funding strategies. Users can mint sDOGE tokens to start accruing yield automatically.</p>
+                  <div>
+                    <a href="assets/img/portfolio/web-3.jpg" title="sDOGE" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>My Clients</h2>
+        <p>Building long-term relationships with clients who believe in creative and effective solutions.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">MyPortfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
